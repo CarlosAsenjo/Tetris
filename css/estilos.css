@@ -1,0 +1,107 @@
+html {
+	background: linear-gradient(270deg, #ac41ed, #5a9ce3, #1bb5d4);
+background-size: 600% 600%;
+
+-webkit-animation: AnimationName 30s ease infinite;
+-moz-animation: AnimationName 30s ease infinite;
+animation: AnimationName 30s ease infinite;
+
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes AnimationName {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+body {
+	font-family: 'Open Sans',
+	sans-serif;
+}
+
+dialog {
+	margin-top: 5em;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12),
+	0 1px 2px rgba(0, 0, 0, 0.24);
+	background-color: rgb(160, 7, 7);
+	border: 0;
+	color: white;
+	font-weight: bold;
+	transition: 1s;
+	width: 15em;
+	text-align: center;
+}
+
+canvas{
+	margin: auto;
+    margin-top: 20px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12),
+	0 1px 2px rgba(0, 0, 0, 0.24);
+	background-color: white;
+}
+
+.puntuacion {
+	text-align: center;
+	color: white;
+}
+
+.canv {
+	text-align: center;
+	margin-left: 6.5em;
+}
+
+
+h1 {
+	color: white;
+}
+
+#pause {
+	height: 3em;
+	width: 3em;
+	border-radius: 50%;
+}
+
+#pause:hover {
+	background-color: rgb(179, 58, 58);
+	color: white;
+}
+
+#play {
+	width: 74px;
+  height: 74px;
+  border-style: solid;
+  border-width: 37px;
+  border-color: #202020;
+}
+
+.center {
+	text-align: center;
+}
+
+button {
+	padding: .2em 1em .2em 1em;
+	border: 0;
+	border-radius: .3em;
+	background-color: rgb(204, 204, 204);
+	outline:0px;
+	width: 10em;
+	transition: .4s;
+	font-size: medium;
+	font-weight: bold;
+	text-align: center;
+}
+
+#start:hover {
+	background-color: rgb(175, 45, 45);
+	color: white;
+}

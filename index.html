@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <title>Juego Tetris</title>
+    <link rel="stylesheet" type="text/css" href="css/estilos.css">
+</head>
+<body>
+    <center><h1>TETRIS</h1></center>
+
+    <div class="center">
+        <button id="start">New Game</button>
+    </div>
+    <dialog open style="opacity: 0;" id="dialog">
+        <p>Game Over!!</p>
+    </dialog>
+    <div class="canv">
+        <canvas id="tetris" width="200" height="400"></canvas>
+        <canvas id="prev" width="100" height="100"></canvas>
+    </div>
+    <div class="puntuacion" >
+        <br><br><b>Puntuación:</b> <div id="score"><b>0</b></div>
+    </div>
+    <div class="center">
+        <br>
+        <button id="dificultad">Dificultad</button>
+    </div>
+    <div class="center">
+        <br>
+        <audio id="demo" src="audio/tetris.mp3" loop></audio>
+        <button id="pause" onclick="document.getElementById('demo').pause()"><i class='fas fa-volume-mute'></i></button>
+    </div>
+
+    <script src="js/tetrominos.js"></script>
+    <script src="js/Juego.js"></script>
+    <script src="js/Pieza.js"></script>
+    <script src="js/Tablero.js"></script>
+    <script src="js/script.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+</body>
+</html>
