@@ -49,11 +49,11 @@ creación de más piezas.
       
       **- juego.js:**
 
-      **- tablero.js:**
+      **- tablero.js:** Contiene las funciones necesarias para crear el tablero, dibujar en el camvas, comprobar si esta vacia la 				posicion donde se fija la pieza, y la funcion necesaria para eliminar filas completas y sumar puntuacion.
           
       **- pieza.js:**
       
-      **- tetrominos.js:**
+      **- tetrominos.js:** Contiene los arrays multidimensionales que forman las piezas.
 
   * index.html: Contiene el codigo html con el que se ejecuta el juego.
 
