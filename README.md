@@ -49,7 +49,7 @@ creación de más piezas.
       
       **- juego.js:**
 
-      **- tablero.js:** Contiene las funciones necesarias para crear el tablero, dibujar en el camvas, comprobar si esta vacia la 				posicion donde se fija la pieza, y la funcion necesaria para eliminar filas completas y sumar puntuacion.
+      **- tablero.js:** Contiene las funciones necesarias para crear el tablero, dibujar en el canvas, comprobar si esta vacia la 				posicion donde se fija la pieza, y la funcion necesaria para eliminar filas completas y sumar puntuacion.
           
       **- pieza.js:**
       
